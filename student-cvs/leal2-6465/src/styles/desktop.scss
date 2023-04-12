@@ -1,0 +1,32 @@
+@use 'variables.scss' as vars;
+
+
+@media screen and (min-width: 720px) {
+    body {
+      background-color: vars.$base-color;
+      max-width: 60%;
+      color: vars.$letter-color;
+      font-family: vars.$font-family;
+      font-size: vars.$font-size;
+      font-weight: 100;
+    }
+  
+    .container {
+      margin: auto 4px;
+      display: flex;
+      justify-content:space-between;
+      flex-direction: column;
+     }
+  
+    .cards {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+    }
+  
+    footer {
+      align-items: center;
+      justify-items: center;
+    }
+  }
